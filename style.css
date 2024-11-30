@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #232323;
+    overflow-x: hidden;
+    background-image: url('modern-kitchen-interior-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
+
+.navbar {
+    position: absolute; 
+    top: 0; 
+    left: 0;  
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: transparent;
+    z-index: 10;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.texts {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.texts li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.texts li a:hover {
+    color: #C99871;
+}
+
+
+
+.pjesamajt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 75px;
+    padding: 100px;
+    text-align: center;
+}
+
+.pjesamajt h1 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+}
+
+.pjesamajt p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.pjesamajt .btn {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: #bf8759 5px;
+    box-shadow: 0 0 15px #f19951;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 200px;
+}
+
+.pjesamajt .btn:hover {
+    background-color: #C99871;
+}
