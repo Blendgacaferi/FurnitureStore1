@@ -874,3 +874,111 @@ body.contact-us-body {
 .contact-us-img button:hover {
     background-color: #C99871;
 }
+body.login-form-body {
+    background-image: url(''); 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    margin-bottom: 70px;
+}
+
+body.login-form-body .login-container{
+    font-family: 'Roboto', Arial, sans-serif;
+   
+    margin-top: 150px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.login-container {
+    background: #4e4c4c;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    font-size: 28px;
+    color: #e2e8f0;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #cbd5e1;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #2f2d2c;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #e2e8f0;
+    background: #2f2d2c;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    background: #2f2d2c;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #C99871;
+    box-shadow:#bf8759;
+  }
+  
+  .error-message {
+    color: #f87171;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #94a3b8;
+  }
+  
+  .footer-text a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-text a:hover {
+    color: #3b82f6;
+  }
